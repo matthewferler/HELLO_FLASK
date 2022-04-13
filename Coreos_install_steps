@@ -1,10 +1,10 @@
 
 Install steps: https://docs.fedoraproject.org/en-US/fedora-coreos/bare-metal/
-
+Create a directory for files: $ mkdir core_os_install
+Navigate: $ cd core_os_install
 Install coreos-installer: $ sudo dnf install coreos-installer
 Install Butane: $ sudo dnf install -y butane
-Create a basic Ignition config that modifies the default Fedora CoreOS user core to allow this user to log in with an SSH key:
-  Create the file example.bu with the following contents:
+Create a basic Ignition config (example.bu) that modifies the default Fedora CoreOS user core to allow this user to log in with an SSH key:
 variant: fcos
 version: 1.4.0
 passwd:
@@ -16,6 +16,5 @@ passwd:
 
   
   Run Butane on the Butane config: $ butane --pretty --strict example.bu > example.ign
-Convert the Ignission file to JSON:
-Install CoreOS: sudo coreos-installer install /dev/nvme0n1 --ignition-url https://example.com/example.ign
+Install CoreOS: sudo coreos-installer install /dev/nvme0n1 --ignition-file ./example.ign
 Reboot: $ sudo reboot
