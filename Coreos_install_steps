@@ -11,7 +11,7 @@ passwd:
   users:
     - name: core
       ssh_authorized_keys:
-        - ssh-rsa AAAA...
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCnzAjmf6bVHsbSLuZlky9NYQhRDC5HS8YGrcbczwGWC96Imj6wOt742YCmfMRhz1W/YEibIU/Un6mRGNhw2TVyvwsUgLhRbftnGrsdO/pWz1d5opqrNpsXYLEXa9vzwAwfUf53bOyKoqppheo5XndiLzHmD9SFBMWZ3SrhXI3BO+7uJlFcKfrupB9eHzRx/9IvNa3ORKqTu1QlQoumKGXbDS77ZUZM7KiQTfprZubLftoMalC7JdjpDzkvaGkUf87JdlPEo9kXHcs8P+VTY1O1MjtotKAVblyiJZLO9EvEDbeGicDIeDHmGk0dl5v+R365c486KTiBTBK/cvHQeOXtC2hHoAt9kRpLoAv08CUt8UaP/EvoJYnagHXl7b5c18PI6ztOSKwrx5u/freuyP9Prw20PlCZ7auXcfUBc0Jkk/RMqItYnD0SKTvLIHKvLAyjfxDxgt0VBfJEc17vCmmCGoGkiz76mk509TjbxNhJ0YoDZbcXJ2E82A2gwG8wMi0= matthew.f.erler@gmail.com
 
 
   
