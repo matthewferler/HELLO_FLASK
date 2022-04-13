@@ -16,5 +16,7 @@ passwd:
 
   
   Run Butane on the Butane config: $ butane --pretty --strict example.bu > example.ign
+Try this simple Ignission file: sudo coreos-installer install /dev/nvme0n1 --copy-network --ignition-url https://techoverflow.net/coreos.ign
 Install CoreOS: sudo coreos-installer install /dev/nvme0n1 --ignition-file ./example.ign
 Reboot: $ sudo reboot
+
